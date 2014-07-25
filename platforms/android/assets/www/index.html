@@ -10,10 +10,11 @@
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/skeleton.css">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.3.min.css">
 
 <script type="text/javascript" src="js/painlessfs.js"></script>
-
 <script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/jquery.mobile-1.4.3.min.js"></script>
 <script src="js/jquery.transit.min.js"></script>
 <script src="js/class.responesize.js"></script>
 <script src="js/class.audios.js"></script>
@@ -22,7 +23,7 @@
 
 <script type="text/javascript">
 	var DEMO = false;
-	//DEMO = true;
+	DEMO = true;
 	if(!DEMO){
 		var script = document.createElement('script');
 		script.src = 'cordova.js';
@@ -35,6 +36,7 @@
 </head>
 
 <body>
+
 <!--intro-->
 <div class="page intro">
 	<div class="inner">
@@ -132,10 +134,16 @@
 			<header>
             	<h3>EFFORTLESS <br>ENGLISH</h3>
                 <p>New method learning <br>English - Level 1</p>            	
+                
+                <div class="backicon how-rules"><img src="images/back.png" ></div>
             </header>
 			<section>
             	<div class="main-player">
                 	<img class="bg" src="images/lre_final_005_AJ 2.jpg">
+                    <div class="group-playercontrol">
+                    	<input type="range" name="playercontrol-slider" id="playercontrol-slider" value="0" min="0" max="1000" step="50" data-highlight="true">
+                        
+                    </div>
                 </div>
             	<div class="text-MS" id="ptext-MS"></div>
                 <div class="text-MS-Temp" style="display:none;">

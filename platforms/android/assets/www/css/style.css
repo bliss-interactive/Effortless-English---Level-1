@@ -36,8 +36,14 @@ img{width:100%; }
 
 /*how rules*/
 #rules{display:none;}
-.listaudio header .howicon, .listaudio header .homeicon{position:absolute; top: 0.7em; right:0; width: 10em;}
+.listaudio header .backicon, .listaudio header .howicon, .listaudio header .homeicon{position:absolute; top: 0.7em; right:0; width: 10em;}
+
 .listaudio header .homeicon{display:none;width: 5.5em;top: 3em;right: 2.2em;}
+.listaudio header .backicon{
+    width: 8em;
+    top: 1.7em;
+    right: 1em;
+}
 /*audio*/
 .page .content.audio{background:#23b7a1; position:absolute; top:0 ; left:100%; height:100%; width:100%;}
 .page .content.audio .text-MS{font-size:1.5em; height:16em; position:absolute; bottom:0; left:0; width:90%; padding:2em;}
